@@ -70,7 +70,15 @@ img{
 @media screen and (max-width: 420px) {
 
   body {
-    /* background-color: red; */
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 26px;
   }
 
   .row {
@@ -80,6 +88,10 @@ img{
 
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
+  }
+
+  #lezioni .row > .left {
+    margin-bottom: 20px;
   }
 
   #steps .row > .left,
